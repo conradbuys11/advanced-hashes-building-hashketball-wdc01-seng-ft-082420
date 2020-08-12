@@ -28,7 +28,16 @@ def game_hash()
     add_player("Reggie Evans",30,14,12,12,12,12,12,7),
     add_player("Brook Lopez",11,17,17,19,10,3,1,15),
     add_player("Mason Plumlee",1,19,26,11,6,3,8,5),
-    add_player("Jason Terry",31,15,19,2,2,4,11,1)]
+    add_player("Jason Terry",31,15,19,2,2,4,11,1)
+    ]
+  
+  away_players_array = [
+    add_player("Jeff Adrien",4,18,10,1,1,2,7,2),
+    add_player("Bismack Biyombo",0,16),
+    add_player(),
+    add_player(),
+    add_player()
+    ]
   
   hashketball = {
     :home => {
