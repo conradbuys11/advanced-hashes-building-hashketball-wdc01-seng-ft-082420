@@ -31,13 +31,13 @@ def game_hash()
         :blocks => 1,
         :slam_dunks => 1
     },{
-        :player_name => nil,
-        :number => nil,
-        :shoe => nil,
-        :points => nil,
-        :rebounds => nil,
-        :assists => nil,
-        :steals => nil,
+        :player_name => "Reggie Evans",
+        :number => 30,
+        :shoe => 14,
+        :points => 12,
+        :rebounds => 12,
+        :assists => 12,
+        :steals => ,
         :blocks => nil,
         :slam_dunks => nil
     },{
