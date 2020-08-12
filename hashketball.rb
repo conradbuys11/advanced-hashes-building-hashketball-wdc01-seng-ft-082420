@@ -15,7 +15,7 @@ def game_hash()
   }
   
   players_array = Array.new(5)
-  players_array do |hash|
+  players_array.each do |hash|
     hash = player_hash
   end
   
