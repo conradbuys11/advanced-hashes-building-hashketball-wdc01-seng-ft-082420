@@ -1,12 +1,8 @@
 # Write your code here!
 
 def game_hash()
-  hashketball = {
-    :home => {
-      :team_name => nil,
-      :colors => [],
-      :players => [
-        {
+  
+  player_hash = {
           :player_name => nil,
           :number => nil,
           :shoe => nil,
@@ -17,7 +13,12 @@ def game_hash()
           :blocks => nil,
           :slam_dunks => nil
         }
-        ]
+  
+  hashketball = {
+    :home => {
+      :team_name => nil,
+      :colors => [],
+      :players => [player_hash, ]
     },
   }
   
