@@ -20,6 +20,8 @@ def game_hash()
   home_players_array.map{|element| player_hash}
   away_players_array.map{|element| player_hash}
   
+  home_players_array[0][:player_name] = 
+  
   hashketball = {
     :home => {
       :team_name => nil,
