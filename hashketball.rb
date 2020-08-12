@@ -31,7 +31,7 @@ def game_hash()
       :colors => [],
       :players => away_players_array
     }
-    
   }
   
+  hashketball
 end
