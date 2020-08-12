@@ -6,17 +6,17 @@ def game_hash()
       :team_name => nil,
       :colors => [],
       :players => [
-        #{
-        #  :player_name => nil,
-        #  :number => nil,
-        #  :shoe => nil,
-        #  :points => nil,
-        #  :rebounds => nil,
-        #  :assists => nil,
-        #  :steals => nil,
-        #  :blocks => nil,
-        #  :slam_dunks => nil
-        #}
+        {
+          :player_name => nil,
+          :number => nil,
+          :shoe => nil,
+          :points => nil,
+          :rebounds => nil,
+          :assists => nil,
+          :steals => nil,
+          :blocks => nil,
+          :slam_dunks => nil
+        }
         ]
     },
   }
