@@ -33,10 +33,10 @@ def game_hash()
   
   away_players_array = [
     add_player("Jeff Adrien",4,18,10,1,1,2,7,2),
-    add_player("Bismack Biyombo",0,16),
-    add_player(),
-    add_player(),
-    add_player()
+    add_player("Bismack Biyombo",0,16,12,4,7,22,15,10),
+    add_player("DeSagna Diop",2,14,24,12,12,4,5,5),
+    add_player("Ben Gordon",8,15,33,3,2,1,1,0),
+    add_player("Kemba Walker",33,15,6,12,12,7,5,12)
     ]
   
   hashketball = {
