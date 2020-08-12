@@ -2,21 +2,20 @@
 
 def game_hash()
   
-  player_hash = {
-        :player_name => nil,
-        :number => nil,
-        :shoe => nil,
-        :points => nil,
-        :rebounds => nil,
-        :assists => nil,
-        :steals => nil,
-        :blocks => nil,
-        :slam_dunks => nil
-  }
-  
-  def add_player(name,number,shoe,points,rebounds,assists,steals,blocks,slam_dunks){
-
-  }
+  def add_player(name,number,shoe,points,rebounds,assists,steals,blocks,slam_dunks)
+    player = {
+    :player_name => name,
+    :number => number,
+    :shoe => shoe,
+    :points => points,
+    :rebounds => rebounds,
+    :assists => assists,
+    :steals => steals,
+    :blocks => blocks,
+    :slam_dunks => slam_dunks
+    }
+    player
+  end
   
   #home_players_array = Array.new(5)
   #away_players_array = Array.new(5)
@@ -24,58 +23,12 @@ def game_hash()
   #home_players_array.map{|element| player_hash}
   #away_players_array.map{|element| player_hash}
   
-  home_players_array = [{
-        :player_name => "Alan Anderson",
-        :number => 0,
-        :shoe => 16,
-        :points => 22,
-        :rebounds => 12,
-        :assists => 12,
-        :steals => 3,
-        :blocks => 1,
-        :slam_dunks => 1
-    },{
-        :player_name => "Reggie Evans",
-        :number => 30,
-        :shoe => 14,
-        :points => 12,
-        :rebounds => 12,
-        :assists => 12,
-        :steals => ,
-        :blocks => nil,
-        :slam_dunks => nil
-    },{
-        :player_name => nil,
-        :number => nil,
-        :shoe => nil,
-        :points => nil,
-        :rebounds => nil,
-        :assists => nil,
-        :steals => nil,
-        :blocks => nil,
-        :slam_dunks => nil
-    },{
-        :player_name => nil,
-        :number => nil,
-        :shoe => nil,
-        :points => nil,
-        :rebounds => nil,
-        :assists => nil,
-        :steals => nil,
-        :blocks => nil,
-        :slam_dunks => nil
-    },{
-        :player_name => nil,
-        :number => nil,
-        :shoe => nil,
-        :points => nil,
-        :rebounds => nil,
-        :assists => nil,
-        :steals => nil,
-        :blocks => nil,
-        :slam_dunks => nil
-    }
-  ]
+  home_players_array = [
+    add_player("Alan Anderson",0,16,22,12,12,3,1,1),
+    add_player("Reggie Evans",30,14,12,12,12,12,12,7),
+    add_player("Brook Lopez",11,17,17,19,10,3,1,15),
+    add_player("Mason Plumlee",1,19,26,11,6,3,8,5),
+    add_player("Jason Terry",31,15,19,2,2,4,11,1)]
   
   hashketball = {
     :home => {
