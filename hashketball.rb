@@ -43,12 +43,12 @@ def game_hash()
     :home => {
       :team_name => nil,
       :colors => [],
-      :players => []
+      :players => home_players_array
     },
     :away => {
       :team_name => nil,
       :colors => [],
-      :players => []
+      :players => away_players_array
     }
   }
   
