@@ -14,10 +14,11 @@ def game_hash()
         :slam_dunks => nil
   }
   
-  players_array = Array.new(5)
-  players_array.each do |hash|
-    hash = player_hash
-  end
+  home_players_array = Array.new(5)
+  away_players_array = Array.new(5)
+  
+  home_players_array.map{|element| player_hash}
+  away_players_array.map{|element| player_hash}
   
   hashketball = {
     :home => {
